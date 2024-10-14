@@ -35,5 +35,12 @@ public class Product {
     @Lob
     private byte[] imageData;
 
+    public String getImageType() {
+        return imageType; // Ensure this getter exists
+    }
+
+    public byte[] getImageData() {
+        return imageData; // Ensure this getter exists
+    }
 
 }
